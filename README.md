@@ -20,17 +20,14 @@ construcción del proyecto usando Maven, una
 herramienta ampliamente usada en la industria.
 
 Objetivos
-● Comprender qué es Maven y cómo automatiza la
-construcción del software.
-● Instalar y configurar Maven en tu equipo.
-● Crear un proyecto con estructura profesional.
-● Agregar dependencias externas y gestionar
-versiones.
-● Crear y ejecutar pruebas unitarias.
-● Empaquetar la aplicación como .jar lista para
-distribución.
+- Comprender qué es Maven y cómo automatiza laconstrucción del software.
+- Instalar y configurar Maven en tu equipo.
+- Crear un proyecto con estructura profesional.
+- Agregar dependencias externas y gestionar versiones.
+- Crear y ejecutar pruebas unitarias.
+- Empaquetar la aplicación como .jar lista para distribución.
 
-Preguntas finales
+Preguntas finales (T.B.A.)
 - ¿Qué aprendiste sobre el ciclo de vida de Maven?
 - ¿Cómo facilita Maven el trabajo en equipo y la reproducibilidad?
 - ¿Cuál fue el mayor reto al trabajar con dependencias?
@@ -39,22 +36,15 @@ Preguntas finales
 
 ## Comandos usados (Maven)
 
-## 🛠️ Comandos usados con Maven
-
-A continuación, algunos de los comandos utilizados durante el desarrollo:
-
 ```bash
 # Generar proyecto con estructura estándar
-mvn archetype:generate -DgroupId=com.equipo.taskmaster -DartifactId=taskmaster
-
-# Compilar el proyecto
-mvn clean compile
-
-# Ejecutar la aplicación principal (requiere exec-maven-plugin)
-mvn exec:java -Pdev
+mvn archetype:generate
 
 # Ejecutar los tests
 mvn test
+
+# Compilar el proyecto
+mvn clean compile
 
 # Empaquetar el proyecto como .jar
 mvn package
@@ -93,7 +83,7 @@ También enfrentamos dificultades iniciales al gestionar múltiples versiones de
 
 1. Clona el repositorio
 ```bash
-git clone https://github.com/EdoAbarca/taskmaster.git
+git clone https://github.com/EdoAbarca/maven-exercise.git
 cd taskmaster
 ```
 
